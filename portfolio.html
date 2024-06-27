@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />    <style>
+      .home {
+          width: 92%;
+          height: auto;
+          margin: auto;
+          overflow: hidden; /* Pour éviter les débordements */
+          transition: all ease-in-out 0.4s;
+      }
+      .connexion {
+          width: 70%;
+          height: auto;
+          margin: auto;
+          overflow: hidden; /* Pour éviter les débordements */
+          transition: all ease-in-out 0.4s;
+      }
+      .textComputer {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          height: 100%;
+          text-align: center;
+      }
+      .imo img {
+          margin: 0 10px;
+      }
+      .textComputer h1:nth-child(1) {
+          font-size: 3em;
+          color: #172b4e;
+      }
+      .textComputer h1:nth-child(2) {
+          font-size: 3em;
+          color: #ff6b01;
+      }
+      .button button {
+          font-size: 25px;
+          letter-spacing: 2px;
+          color: white;
+          background: #ff6b01f3;
+          border-top-right-radius: 20px;
+          border-bottom-left-radius: 20px;
+          box-shadow: 0px 10px 15px 12px rgba(0, 0, 0, 0.1);
+      }
+      .computer img {
+          width: 100%;
+          height: auto;
+          max-height: 94vh;
+      }
+      .icon-circle {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background-color: #9885721f;
+          width: 50px;
+          height: 50px;
+          border-radius: 50%;
+          box-shadow: black;
+          border: solid 1px rgba(128, 128, 128, 0.462);
+          margin: auto; /* Centering */
+      }
+      .Ruby p{
+        font-size: 10px;
+        color: #ff6b01;
+
+      }
+      .bg-css {
+        background-color: #EBF0EE;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      .project button{
+        background-color: #38B27F;
+        color: #FFFF;
+      }
+      .project button:hover{
+        border:solid 1px #38B27F;
+        color: #38B27F;
+        transition: all .4s ease-out;
+      }
+      .card .img-shadow{
+        height: 250px;
+        object-fit: cover;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        box-shadow: 4px 14px 3px 3px rgba(0,0,0,0.1);
+      }
+      .card .img-language{
+        height: 250px;
+        object-fit: cover;
+      }
+      .Languages{
+        background-color: #FFFFFF;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+      /* input .form-control:focus {
+        outline: none;
+        box-shadow: none;
+      } */
+     
+
+
+
+
+
+
+
+
+
+
+
+
+  </style>
+  </head>
+  <body>
+    <main>
+      <section class="home container">
+        <nav class="navbar navbar-expand-lg m-1 bg-body-tertiary">
+            <button
+                class="navbar-toggler shadow-none border-0 ms-auto"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    
+        <div class="row h-100">
+            <div class="col-sm-5 mb-3 mb-sm-0 d-flex align-items-center">
+                <div class="textComputer" style="margin-top: -120px">
+                    <h1>Hey there. I'm Alex.</h1>
+                    <h1>I'm a software developer</h1>
+                    <div class="col-10 mx-auto mt-5">
+                        <p>
+                            I can help you build a product, feature or website. Look
+                            through some of my work and experience! If you like what you
+                            see and have a project you need coded, don't hesitate to
+                            contact me.
+                        </p>
+                    </div>
+                    <div class="imo p-3">
+                        <img src="github.svg" alt="GitHub" />
+                        <img src="Linkedin icon.svg" alt="LinkedIn" />
+                        <img src="angellist.svg" alt="AngelList" />
+                        <img src="twitter.svg" alt="Twitter" />
+                        <img src="medium.svg" alt="Medium" />
+                    </div>
+                    <div class="button mt-5">
+                        <button class="col-8 col-md-5 p-3 text-nowrap">
+                            Download CV
+                            <i class="ri-download-line ms-3"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-7 d-flex align-items-center h-100">
+                <div class="computer w-100">
+                    <img src="./Img7.png" alt="Image" class="w-100" />
+                </div>
+            </div>
+            <div class="icon-circle mt-2">
+                <i class="ri-arrow-down-wide-fill"></i>
+            </div>
+        </div>
+    </section>
+      <br><br><br><br><br><br><br><br><br><br>
+      <h1 class="text-center mt-3">My recent works</h1><br><br>
+      <section class="home mb-5 border">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-4 mb-3 mb-sm-0">
+              <div class="card">
+                <img class="w-100 img-shadow" src="./Img6.webp" alt="">
+                <div class="card-body">
+                  <h1 class="text-center">Impact</h1>
+                  <div class="col-md-12 d-flex gap-2 justify-content-center align-items-center">
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 text-nowrap bg-css">Ruby on rails</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">HTML</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">CSS</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">JavaScript</p>
+                    </div>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center align-items-center project">
+                     <button type="button" class="btn text-center">See Project</button>
+                  </div>
+                 
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-sm-4 mb-3 mb-sm-0">
+              <div class="card">
+                <img class="w-100 img-shadow" src="./Img2.webp" alt="">
+                <div class="card-body">
+                  <h1 class="text-center">Impact</h1>
+                  <div class="col-md-12 d-flex gap-2 justify-content-center align-items-center">
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 text-nowrap bg-css">Ruby on rails</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">HTML</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">CSS</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">JavaScript</p>
+                    </div>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center align-items-center project">
+                     <button type="button" class="btn text-center">See Project</button>
+                  </div>
+                 
+                </div>
+
+              </div>
+            </div>
+
+            <div class="col-sm-4 mb-3 mb-sm-0">
+              <div class="card">
+                <img class="w-100 img-shadow" src="./Img3.jpg" alt="">
+                <div class="card-body">
+                  <h1 class="text-center">Impact</h1>
+                  <div class="col-md-12 d-flex gap-2 justify-content-center align-items-center">
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 text-nowrap bg-css">Ruby on rails</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">HTML</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">CSS</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">JavaScript</p>
+                    </div>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center align-items-center project">
+                     <button type="button" class="btn text-center">See Project</button>
+                  </div>
+                 
+                </div>
+
+              </div>
+            </div>
+            <div class="col-sm-4 mt-5 mb-sm-0">
+              <div class="card">
+                <img class="w-100 img-shadow" src="./img1.webp" alt="">
+                <div class="card-body">
+                  <h1 class="text-center">Portfolio <br>Freya Moore</h1>
+                  <div class="col-md-12 d-flex gap-2 justify-content-center align-items-center">
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 text-nowrap bg-css">Ruby on rails</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">HTML</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">CSS</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">JavaScript</p>
+                    </div>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center align-items-center project">
+                     <button type="button" class="btn text-center">See Project</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mt-5 mb-sm-0">
+              <div class="card">
+                <img class="w-100 img-shadow" src="./Img8.jpeg" alt="">
+                <div class="card-body">
+                  <h1 class="text-center">Sass <br>Digital Creator</h1>
+                  <div class="col-md-12 d-flex gap-2 justify-content-center align-items-center">
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 text-nowrap bg-css">Ruby on rails</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">HTML</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">CSS</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">JavaScript</p>
+                    </div>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center align-items-center project">
+                     <button type="button" class="btn text-center">See Project</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4 mt-5 mb-sm-0">
+              <div class="card">
+                <img class="w-100 img-shadow" src="./Img5.jpg" alt="">
+                <div class="card-body">
+                  <h1 class="text-center">ALLAN <br> JOHNSON</h1>
+                  <div class="col-md-12 d-flex gap-2 justify-content-center align-items-center">
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 text-nowrap bg-css">Ruby on rails</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">HTML</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">CSS</p>
+                    </div>
+                    <div class="col-md-3 Ruby">
+                      <p class="text-center p-2 bg-css">JavaScript</p>
+                    </div>
+                  </div>
+                  <div class="col-12 d-flex justify-content-center align-items-center project">
+                     <button type="button" class="btn text-center">See Project</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="home mb-5">
+        <h1 class="text-center mt-3">About me</h1><br><br>
+      <p class="text-center"> I can help you build a product, feature or website. Look
+        through some of my work and <br> experience! If you like what you
+        see and have a project you need coded,<br> don't hesitate to
+        contact me.</p>
+        <div class="container">
+         <div class=" row">
+          <div class="col-md-4 mb-3">
+             <div class="card" style="background-color: #EBF0EE; height: 305px;">
+            <img src="icon-languages.svg"  alt="...">
+            <div class="card-body">
+              <h1 class="text-center">Languages</h1>
+              <div class="col-md-12 d-flex gap-2 justify-content-center align-items-center">
+                <div class="col-md-3 Ruby">
+                  <p class="text-center p-2 text-nowrap Languages">JavaScript</p>
+                </div>
+                <div class="col-md-3 Ruby">
+                  <p class="text-center p-2 Languages">Ruby</p>
+                </div>
+                <div class="col-md-3 Ruby">
+                  <p class="text-center p-2 Languages">HTML</p>
+                </div>
+                <div class="col-md-3 Ruby">
+                  <p class="text-center p-2 Languages">CSS</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-4 mb-3">
+          <div class="card" style="background-color: #EBF0EE; height: 305px;">
+            <img src="icon-languages.svg"  alt="...">
+            <div class="card-body">
+              <h1 class="text-center">Languages</h1>
+              <div class="col-md-12 d-flex gap-2 justify-content-center align-items-center">
+                <div class="col-md-4 Ruby">
+                  <p class="text-center p-2 text-nowrap Languages">React.jst</p>
+                </div>
+                <div class="col-md-4 Ruby">
+                  <p class="text-center p-2 Languages">Ruby on rails</p>
+                </div>
+                <div class="col-md-4 Ruby">
+                  <p class="text-center p-2 Languages">RSpec</p>
+                </div>
+           
+              </div>
+
+              <div class="col-12 d-flex justify-content-center align-items-center">
+                <div class="col-md-4  Ruby">
+                <p class="text-center p-2 Languages">Capybara</p>
+              </div>
+              </div>
+              
+            </div>
+          </div>
+          </div>
+          
+
+          <div class="col-md-4 mb-3">
+          <div class="card" style="background-color: #EBF0EE; height: 305px;">
+            <img src="icon-frameworks.svg"  alt="...">
+            <div class="card-body">
+              <h1 class="text-center">Frameworks</h1>
+              <div class="col-md-12 d-flex gap-2 justify-content-center align-items-center">
+                <div class="col-md-6 Ruby">
+                  <p class="text-center p-2 text-nowrap Languages">Database Management</p>
+                </div>
+                <div class="col-md-6 Ruby">
+                  <p class="text-center p-2 Languages">Version control</p>
+                </div>
+
+                
+                
+              </div>
+              <div class="col-md-12 d-flex gap-2 justify-content-center align-items-center">
+                <div class="col-md-3 Ruby">
+                  <p class="text-center p-2 Languages">CLI</p>
+                </div>
+                <div class="col-md-4 Ruby">
+                  <p class="text-center p-2 Languages">Web Development</p>
+                </div>
+                <div class="col-md-4 Ruby">
+                  <p class="text-center p-2 Languages">API Design</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          </div>
+          
+        </div>
+        </div>
+     
+      </section><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+      <section class="connexion">
+        <div class="row">
+          <div class="col-sm-6 mb-3 mb-sm-0">
+            <div class="card" style="border: none;">
+              <div class="card-body">
+                <h1 class="text-center">Contact Me</h1><br><br>
+                <h1 class="text-center">I'm always interested in hearing <br> about new projects, so if you'd like <br> chat please
+                  get in touch</h1>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card" style="border: none;">
+              <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-3"></div>
+               
+                <input type="text" aria-label="First name" class="col-sm-5 form-control shadow-none" placeholder="First name">
+                <input type="text" aria-label="Last name" class="col-sm-5 form-control shadow-none" placeholder="Last name">
+              </div>
+              <br><br>
+              <input type="text" class="form-control shadow-none" placeholder="Email address">
+             <br><br>
+             <textarea class="form-control shadow-none" name="" id="" rows="5" placeholder="Hey i'd like to connect to..."></textarea>
+             <br><button class="col-sm-3 btn get " style="height: 53px; background-color: #ff6b01; color: white;">Get in touch</button>
+            </div>
+          </div>
+        </div>
+       
+
+
+      
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+  </body>
+</html>
